@@ -38,6 +38,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis-session-store'
 # gem 'redis-store', github: 'redis-store/redis-store'
 gem "redis-rails", github: 'redis-store/redis-rails'
+# 上传组件
+gem 'carrierwave'
+# Lazy load
+gem 'mini_magick', require: false
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

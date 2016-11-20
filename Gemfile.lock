@@ -8,7 +8,7 @@ GIT
       redis-store (~> 1.2.0)
 
 GEM
-  remote: https://ges.ruby-china.org/
+  remote: https://rubygems.org/
   specs:
     actioncable (5.0.0.1)
       actionpack (= 5.0.0.1)

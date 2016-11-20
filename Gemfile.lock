@@ -8,7 +8,7 @@ GIT
       redis-store (~> 1.2.0)
 
 GEM
-  remote: https://ruby.taobao.org/
+  remote: https://ges.ruby-china.org/
   specs:
     actioncable (5.0.0.1)
       actionpack (= 5.0.0.1)
@@ -52,6 +52,11 @@ GEM
       rake (>= 10.4, < 12.0)
     ansi (1.5.0)
     arel (7.1.4)
+    autoprefixer-rails (6.5.1.1)
+      execjs
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     byebug (9.0.6)
     callsite (0.0.11)
@@ -241,6 +246,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
+  bootstrap-sass (~> 3.3.6)
   byebug
   carrierwave
   coffee-rails (~> 4.2)
